@@ -1,0 +1,37 @@
+html{
+    margin: 0;
+}
+body{
+    transition: background-color 1s ease-in-out;
+}
+.mainbody{
+
+    text-align: center;
+    margin-top: 20vh;
+    
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+    
+}
+
+#purple{
+    background-color: purple;
+}
+#white{
+    background-color: rgb(255, 255, 255);
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+
+span{
+    display: block;
+}

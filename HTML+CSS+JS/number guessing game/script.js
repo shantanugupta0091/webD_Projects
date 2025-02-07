@@ -99,6 +99,7 @@ function newGame(){
         guessSlot.innerHTML = '';
         remaining.innerHTML = `${11-numGuess}`
 
+        lowOrHi.innerHTML = ''
         prevGuess= [];
         numGuess = 1;
         playGame=true;

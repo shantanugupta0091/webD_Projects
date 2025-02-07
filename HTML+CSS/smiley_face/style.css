@@ -1,0 +1,64 @@
+.face{
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 2px auto;
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    box-shadow: 5px 5px 15px black;
+    transition-duration: 2s;
+}
+
+.eyes{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    display: inline-block;
+
+    top: 87.5px;
+    left: 550px;
+}
+
+#second-eye{
+     
+     left: 700px;
+}
+
+.mouth{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: brown;
+    border-radius: 60% 60% 0% 0%;
+    position: absolute;
+    top: 250px;
+    left: 555px;
+    transition:  2s;
+}
+.face:hover{
+    background-color: yellow;
+    box-shadow: 10px 10px 30px black;
+}
+.face:hover .mouth{
+    border-radius:  0% 0% 60% 60%;
+}
+.pupil{
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: azure;
+    position:relative;
+    top: 35px; 
+    left: 16px;
+    transition: 2s;
+}
+.face:hover .pupil{
+    top: 15px; 
+    left: 12px;
+    height: 25px;
+    width: 25px;
+}
